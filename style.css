@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background-color:#000000;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    position: fixed;
+
+}
+.logo{
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    color: yellow;
+    font-family: cursive;
+}
+
+.nav-bar a{
+   padding: 10px;
+   color: white;
+   cursor: pointer;
+   font-size: 20px;
+   text-decoration: none;
+   margin: 0 5px;
+   border: solid transparent;
+   transition: .3s;
+}
+.nav-bar a:hover{
+    border-bottom:solid rgb(251, 255, 0);
+    color: yellow;
+}
+.nav-bar ul{
+    margin-right: 0%;
+}
+.home-page{
+    width: 100vw;
+    height: 100vh;
+    background:black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-content h2{
+    color: rgb(255, 238, 5);
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+.home-content h1{
+    font-size: 60px;
+    color: white;
+}
+.home-content p{
+    color: white;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 15%;
+}
+
+.btn2{
+    color: rgb(255, 255, 255);
+    background: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    width: 180px;
+    height: 55px;   
+    font-size: 15px;
+    border: 1px solid;
+    transition: .3s;
+}
+.btn2:hover{
+    background-color: rgb(243, 243, 243);
+    border: none;
+    box-shadow: 0 0 15px rgb(250, 250, 250);
+    color: black;
+}
+
+.get-started{
+    width: 100vw;
+    height: 120vh;
+    background: #ffffffad;
+}
+.get-started-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.get-started-content h1{
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+.get-started p{
+    margin-bottom: 3%;
+}
+.guitar-container{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin-top: 5%;
+}
+.guitar-container1{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px black;
+    background-image: url(acoustic.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.guitar-container2{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px black;
+    background-image: url(electric.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.guitar-container3{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px black;
+    background-image: url(classical.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.guitar-container h1{
+    text-align: center;
+}
+    
+
+
+
+.basic-chords{
+    width: 100vw;
+    height: 200vh;
+    background-color: rgb(8, 0, 0);
+    color: white;
+}
+.basic-chords-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.basic-chords-content h1{
+    font-size: 45px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.chords-container1{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    justify-content: center;
+}
+.chord-C{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.chord-D{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.chord-E{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.chord-F{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.chord-G{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.chords-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 2%;
+}
